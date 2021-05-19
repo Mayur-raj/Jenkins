@@ -1,0 +1,13 @@
+<suite name="SmokeTest">
+<parameter name="RequestID" value="RP2"/>
+	<groups>
+		<run>
+			<include name="SmokeTest"/>
+		</run>
+	</groups>
+	<test name="Smoke Testing">
+		<classes>
+			<class name = "QualityKioskTraining.BankingAssessment.BankAccountTestCase" />
+		</classes>
+	</test>
+</suite>

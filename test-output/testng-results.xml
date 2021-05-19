@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="6" failed="0" ignored="0" total="6" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58" started-at="2021-04-23T15:29:08 IST" finished-at="2021-04-23T15:29:08 IST">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="BankAccountTestCase.SavingAcc()[pri:5, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="SavingAcc" class="QualityKioskTraining.BankingAssessment.BankAccountTestCase"/>
+        <method signature="BankAccountTestCase.salaryAccount()[pri:6, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="salaryAccount" class="QualityKioskTraining.BankingAssessment.BankAccountTestCase"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="BankAccountTestCase.DepositMoney()[pri:3, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="DepositMoney" class="QualityKioskTraining.BankingAssessment.BankAccountTestCase"/>
+        <method signature="BankAccountTestCase.InitialBalance()[pri:2, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="InitialBalance" class="QualityKioskTraining.BankingAssessment.BankAccountTestCase"/>
+        <method signature="BankAccountTestCase.openingofAcc()[pri:1, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="openingofAcc" class="QualityKioskTraining.BankingAssessment.BankAccountTestCase"/>
+        <method signature="BankAccountTestCase.withDraw()[pri:4, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="withDraw" class="QualityKioskTraining.BankingAssessment.BankAccountTestCase"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Default test" duration-ms="58" started-at="2021-04-23T15:29:08 IST" finished-at="2021-04-23T15:29:08 IST">
+      <class name="QualityKioskTraining.BankingAssessment.BankAccountTestCase">
+        <test-method status="FAIL" signature="createResultFolder(java.lang.String)[pri:0, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="createResultFolder" is-config="true" duration-ms="-1619171948398" started-at="2021-04-23T15:29:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'RequestID' is required by BeforeSuite on method createResultFolder but has not been marked @Optional or defined
+in C:\Users\q6730\AppData\Local\Temp\223\testng-eclipse--1098934347\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'RequestID' is required by BeforeSuite on method createResultFolder but has not been marked @Optional or defined
+in C:\Users\q6730\AppData\Local\Temp\223\testng-eclipse--1098934347\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createResultFolder -->
+        <test-method status="SKIP" signature="init()[pri:0, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="init" is-config="true" duration-ms="-1619171948423" started-at="2021-04-23T15:29:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="SKIP" signature="ReinitialiseRes()[pri:0, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="ReinitialiseRes" is-config="true" duration-ms="-1619171948439" started-at="2021-04-23T15:29:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReinitialiseRes -->
+        <test-method status="SKIP" signature="openingofAcc()[pri:1, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="openingofAcc" duration-ms="0" started-at="2021-04-23T15:29:08 IST" finished-at="2021-04-23T15:29:08 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'RequestID' is required by BeforeSuite on method createResultFolder but has not been marked @Optional or defined
+in C:\Users\q6730\AppData\Local\Temp\223\testng-eclipse--1098934347\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'RequestID' is required by BeforeSuite on method createResultFolder but has not been marked @Optional or defined
+in C:\Users\q6730\AppData\Local\Temp\223\testng-eclipse--1098934347\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingofAcc -->
+        <test-method status="SKIP" signature="clearResult()[pri:0, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="clearResult" is-config="true" duration-ms="-1619171948444" started-at="2021-04-23T15:29:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearResult -->
+        <test-method status="SKIP" signature="ReinitialiseRes()[pri:0, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="ReinitialiseRes" is-config="true" duration-ms="-1619171948447" started-at="2021-04-23T15:29:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReinitialiseRes -->
+        <test-method status="SKIP" signature="InitialBalance()[pri:2, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="InitialBalance" duration-ms="0" started-at="2021-04-23T15:29:08 IST" finished-at="2021-04-23T15:29:08 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'RequestID' is required by BeforeSuite on method createResultFolder but has not been marked @Optional or defined
+in C:\Users\q6730\AppData\Local\Temp\223\testng-eclipse--1098934347\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'RequestID' is required by BeforeSuite on method createResultFolder but has not been marked @Optional or defined
+in C:\Users\q6730\AppData\Local\Temp\223\testng-eclipse--1098934347\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialBalance -->
+        <test-method status="SKIP" signature="clearResult()[pri:0, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="clearResult" is-config="true" duration-ms="-1619171948450" started-at="2021-04-23T15:29:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearResult -->
+        <test-method status="SKIP" signature="ReinitialiseRes()[pri:0, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="ReinitialiseRes" is-config="true" duration-ms="-1619171948451" started-at="2021-04-23T15:29:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReinitialiseRes -->
+        <test-method status="SKIP" signature="DepositMoney()[pri:3, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="DepositMoney" duration-ms="0" started-at="2021-04-23T15:29:08 IST" finished-at="2021-04-23T15:29:08 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'RequestID' is required by BeforeSuite on method createResultFolder but has not been marked @Optional or defined
+in C:\Users\q6730\AppData\Local\Temp\223\testng-eclipse--1098934347\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'RequestID' is required by BeforeSuite on method createResultFolder but has not been marked @Optional or defined
+in C:\Users\q6730\AppData\Local\Temp\223\testng-eclipse--1098934347\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DepositMoney -->
+        <test-method status="SKIP" signature="clearResult()[pri:0, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="clearResult" is-config="true" duration-ms="-1619171948454" started-at="2021-04-23T15:29:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearResult -->
+        <test-method status="SKIP" signature="ReinitialiseRes()[pri:0, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="ReinitialiseRes" is-config="true" duration-ms="-1619171948455" started-at="2021-04-23T15:29:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReinitialiseRes -->
+        <test-method status="SKIP" signature="withDraw()[pri:4, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="withDraw" duration-ms="0" started-at="2021-04-23T15:29:08 IST" finished-at="2021-04-23T15:29:08 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'RequestID' is required by BeforeSuite on method createResultFolder but has not been marked @Optional or defined
+in C:\Users\q6730\AppData\Local\Temp\223\testng-eclipse--1098934347\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'RequestID' is required by BeforeSuite on method createResultFolder but has not been marked @Optional or defined
+in C:\Users\q6730\AppData\Local\Temp\223\testng-eclipse--1098934347\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withDraw -->
+        <test-method status="SKIP" signature="clearResult()[pri:0, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="clearResult" is-config="true" duration-ms="-1619171948458" started-at="2021-04-23T15:29:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearResult -->
+        <test-method status="SKIP" signature="ReinitialiseRes()[pri:0, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="ReinitialiseRes" is-config="true" duration-ms="-1619171948459" started-at="2021-04-23T15:29:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReinitialiseRes -->
+        <test-method status="SKIP" signature="SavingAcc()[pri:5, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="SavingAcc" duration-ms="0" started-at="2021-04-23T15:29:08 IST" finished-at="2021-04-23T15:29:08 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'RequestID' is required by BeforeSuite on method createResultFolder but has not been marked @Optional or defined
+in C:\Users\q6730\AppData\Local\Temp\223\testng-eclipse--1098934347\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'RequestID' is required by BeforeSuite on method createResultFolder but has not been marked @Optional or defined
+in C:\Users\q6730\AppData\Local\Temp\223\testng-eclipse--1098934347\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SavingAcc -->
+        <test-method status="SKIP" signature="clearResult()[pri:0, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="clearResult" is-config="true" duration-ms="-1619171948462" started-at="2021-04-23T15:29:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearResult -->
+        <test-method status="SKIP" signature="salaryAccount()[pri:6, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="salaryAccount" duration-ms="0" started-at="2021-04-23T15:29:08 IST" finished-at="2021-04-23T15:29:08 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'RequestID' is required by BeforeSuite on method createResultFolder but has not been marked @Optional or defined
+in C:\Users\q6730\AppData\Local\Temp\223\testng-eclipse--1098934347\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'RequestID' is required by BeforeSuite on method createResultFolder but has not been marked @Optional or defined
+in C:\Users\q6730\AppData\Local\Temp\223\testng-eclipse--1098934347\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salaryAccount -->
+        <test-method status="SKIP" signature="ReinitialiseRes()[pri:0, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="ReinitialiseRes" is-config="true" duration-ms="-1619171948464" started-at="2021-04-23T15:29:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReinitialiseRes -->
+        <test-method status="SKIP" signature="clearResult()[pri:0, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="clearResult" is-config="true" duration-ms="-1619171948466" started-at="2021-04-23T15:29:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearResult -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="tearDown" is-config="true" duration-ms="-1619171948467" started-at="2021-04-23T15:29:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="copyResultFile(java.lang.String)[pri:0, instance:QualityKioskTraining.BankingAssessment.BankAccountTestCase@43814d18]" name="copyResultFile" is-config="true" duration-ms="-1619171948519" started-at="2021-04-23T15:29:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copyResultFile -->
+      </class> <!-- QualityKioskTraining.BankingAssessment.BankAccountTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

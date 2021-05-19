@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeTest]">
+  <parameter name="RequestID" value="RP2"/>
+  <test thread-count="5" name="Smoke Testing(failed)">
+    <groups>
+      <run>
+        <include name="SmokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="QualityKioskTraining.BankingAssessment.BankAccountTestCase">
+        <methods>
+          <include name="salaryAccount"/>
+        </methods>
+      </class> <!-- QualityKioskTraining.BankingAssessment.BankAccountTestCase -->
+    </classes>
+  </test> <!-- Smoke Testing(failed) -->
+</suite> <!-- Failed suite [SmokeTest] -->

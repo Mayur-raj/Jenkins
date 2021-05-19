@@ -1,0 +1,15 @@
+<suite name="RegressionTest">
+<parameter name="RequestID" value="Regression"/>
+
+  <groups>
+ <run>
+ <include name="RegressionTest"/>
+ </run>
+  </groups>
+  <test name="BankAccount">
+  <classes>
+  <class name="QualityKioskTraining.BankingAssessment.BankAccountTestCase"/>
+  </classes>
+  </test>
+  
+</suite>

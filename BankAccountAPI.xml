@@ -1,0 +1,10 @@
+<suite name="BankAccountAPI">
+<parameter name="RequestID" value="RP1"/>
+
+<test name="BankAccount">
+<classes>
+<class name="QualityKioskTraining.BankingAssessment.BankAccountTestCase">
+</class>
+</classes>
+</test>
+</suite>
